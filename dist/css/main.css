@@ -1,6 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Inter:wght@100;200;400;500;600;700;800;900&display=swap");
 body {
-  background: black;
-  color: white;
+  background: #c5ff82;
+  color: #004212;
+  font-family: 'Inter', sans-serif;
+}
+
+.page {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+
+.page-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px;
+}
+
+.page-boxb {
+  padding: 25px 20px;
+  background-color: #e3e3e3;
+  margin: 10px 0px;
+  letter-spacing: 3px;
+  text-align: left;
 }
 /*# sourceMappingURL=main.css.map */
